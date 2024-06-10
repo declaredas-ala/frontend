@@ -1,0 +1,73 @@
+/* SignInForm.css */
+
+.signin-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  background-size: cover;
+  padding: 20px;
+}
+
+.signin-card {
+  width: 400px;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.signin-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.signin-title {
+  color: #1890ff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signin-form {
+  margin-top: 20px;
+}
+
+.signin-input {
+  border-radius: 10px;
+  height: 45px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.signin-button {
+  background: linear-gradient(135deg, #1890ff 0%, #66b2ff 100%);
+  border: none;
+  border-radius: 10px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.signin-button:hover {
+  background: linear-gradient(135deg, #66b2ff 0%, #1890ff 100%);
+}
+
+.signin-text {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signin-link {
+  color: #1890ff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.signin-link:hover {
+  color: #66b2ff;
+}
